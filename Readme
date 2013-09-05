@@ -1,3 +1,5 @@
 This project has been implemented using Java
+It has a GUI interface
+ Create a new Java projec using any IDE preferably Netbeans or Eclipse and copy-paste the code in the src file.
 
-The algorithm used to do the encryption and the decryption is RSA algorithm
+RSA algorithm used to do the encryption and the decryption
