@@ -6,10 +6,7 @@ import java.math.BigInteger;
  * and open the template in the editor.
  */
 
-/**
- *
- * @author Raghuveer Pai M
- */
+
 public class PrivateKey implements java.io.Serializable{
     
     private BigInteger d;
