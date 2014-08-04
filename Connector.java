@@ -15,10 +15,7 @@ import java.util.Random;
  * and open the template in the editor.
  */
 
-/**
- *
- * @author Raghuveer Pai M
- */
+
 public class Connector {
     
     public static void generateKeys(String keyloc) throws IOException{
