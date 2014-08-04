@@ -11,10 +11,7 @@ import javax.swing.JOptionPane;
  * and open the template in the editor.
  */
 
-/**
- *
- * @author Raghuveer Pai M
- */
+
 public class MainFrame extends javax.swing.JFrame {
 
     /**
