@@ -116,7 +116,7 @@ public class Connector {
         for(int i = 0; i < decrypted.length;i++){
             bytedecrypted[i] = Byte.parseByte(decrypted[i].toString());
         }
-        String msg = new String(bytedecrypted);
-        return msg;
+        String message = new String(bytedecrypted);
+        return message;
     }
 }
