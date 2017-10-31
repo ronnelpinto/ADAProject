@@ -12,12 +12,12 @@ public class PrivateKey implements java.io.Serializable{
     private BigInteger d;
     private BigInteger n;
     
-    public void setd(BigInteger d){
-        this.d = d;
+    public void setd(BigInteger dValue){
+        this.d = dValue;
     }
     
-    public void setn(BigInteger n){
-        this.n = n;
+    public void setn(BigInteger nValue){
+        this.n = nValue;
     }
     
     public BigInteger getd(){
