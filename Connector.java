@@ -50,8 +50,12 @@ public class Connector {
             pukeyloc = keyloc+date+".pukey";
         else
             pukeyloc = keyloc+"\\"+date+".pukey";
-        pukeyloc = pukeyloc.replace(":", "-");
-        pukeyloc = pukeyloc.replaceFirst("-", ":");
+        
+        if(pukeyloc != null) {
+            pukeyloc = pukeyloc.replace(":", "-");
+            pukeyloc = pukeyloc.replaceFirst("-", ":");
+        }
+        
         File pukeyfile = new File(pukeyloc);
         pukeyfile.createNewFile();
         ObjectOutputStream writer;
