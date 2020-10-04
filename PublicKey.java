@@ -4,6 +4,7 @@ import java.math.BigInteger;
 /*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
+ * This class handles the public key creation for the Project
  */
 
 
