@@ -1,3 +1,8 @@
+RSA Key Encryption
+
+
+The aim of this project is to encrypt and decrypt text and files using RSA Algorithm using an interactive GUI interface in Java.
+
 This project has been implemented using Java
 It has a GUI interface
  Create a new Java projec using any IDE preferably Netbeans or Eclipse and copy-paste the code in the src file.
